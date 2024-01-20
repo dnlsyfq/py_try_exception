@@ -33,3 +33,11 @@ while True:
   finally:
     print('\nAttempted Input\n')
 ```
+
+```
+try:
+    # some code
+except ZeroDivisionError as e:
+   # some code
+   print("ZeroDivisionError occurred: {}".format(e))
+```
